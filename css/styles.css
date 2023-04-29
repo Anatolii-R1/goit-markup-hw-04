@@ -302,7 +302,7 @@ p {
 .advantage-list-item {
   width: calc((100% - 72px) / 4);
 }
-.antenna {
+.feature-icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -311,33 +311,7 @@ p {
   border-radius: 4px;
   margin-bottom: 8px;
 }
-.clock {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 112px;
-  background-color: #f4f4fd;
-  border-radius: 4px;
-  margin-bottom: 8px;
-}
-.diagram {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 112px;
-  background-color: #f4f4fd;
-  border-radius: 4px;
-  margin-bottom: 8px;
-}
-.astronaut {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 112px;
-  background-color: #f4f4fd;
-  border-radius: 4px;
-  margin-bottom: 8px;
-}
+
 .advantage-list-title {
   font-size: 20px;
   font-family: 'Roboto';
