@@ -148,6 +148,7 @@ p {
 .header-container {
   display: flex;
   align-items: center;
+  height: 72px;
 }
 .header-main-nav {
   display: flex;
@@ -256,10 +257,6 @@ p {
   text-transform: none;
   color: #ffffff;
   max-width: 496px;
-  position: absolute;
-  height: 120px;
-  left: 472px;
-  top: 260px;
 }
 .hero-title-container {
 }
@@ -461,6 +458,7 @@ p {
   line-height: 1.1;
   color: var(--color-grey);
   margin-bottom: 72px;
+  text-align: center;
 }
 .customers-list {
   display: flex;
