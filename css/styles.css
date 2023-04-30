@@ -504,15 +504,8 @@ p {
   align-items: baseline;
 }
 .social-container {
-  position: absolute;
-  width: 208px;
-  height: 80px;
-  margin-left: 540px;
 }
 .footer-logo-container {
-  position: absolute;
-  width: 264px;
-  height: 112px;
   margin-right: 120px;
 }
 .social-media {
