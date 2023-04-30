@@ -492,14 +492,27 @@ p {
 /* Footer styles */
 
 .footer {
+  max-width: 1440px;
+  height: 312px;
   background-color: #2e2f42;
   padding: 100px 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 156px;
 }
 .footer-container {
   display: flex;
   align-items: baseline;
 }
+.social-container {
+  width: 208px;
+  height: 80px;
+  margin-left: 540px;
+}
 .footer-logo-container {
+  position: absolute;
+  width: 264px;
+  height: 112px;
   margin-right: 120px;
 }
 .social-media {
@@ -540,8 +553,12 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-iris);
-  display: inline-block;
+  display: flex;
   margin-bottom: 16px;
+  align-items: center;
+
+  width: 115px;
+  height: 24px;
 }
 
 .logo-web-studio {
@@ -562,6 +579,10 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+
+  width: 264px;
+  height: 72px;
+  margin-bottom: 100px;
 }
 .span {
   color: #f4f4fd;
