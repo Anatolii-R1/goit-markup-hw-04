@@ -505,6 +505,7 @@ p {
   align-items: baseline;
 }
 .social-container {
+  position: absolute;
   width: 208px;
   height: 80px;
   margin-left: 540px;
@@ -555,10 +556,6 @@ p {
   color: var(--color-iris);
   display: flex;
   margin-bottom: 16px;
-  align-items: center;
-
-  width: 115px;
-  height: 24px;
 }
 
 .logo-web-studio {
